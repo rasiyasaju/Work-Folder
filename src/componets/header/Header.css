@@ -1,0 +1,36 @@
+/* Style for the header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 30px;
+}
+
+.logo img {
+  width: 120px;
+}
+
+/* Style for the navigation menu */
+.nav-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu ul li {
+  display: inline-block;
+}
+
+.nav-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-menu ul li a:hover {
+  color: #0fccce; /* Change color on hover */
+}
