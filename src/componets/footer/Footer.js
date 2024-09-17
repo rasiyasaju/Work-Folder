@@ -11,7 +11,7 @@ class Footer extends Component {
       content: [
         {
           type: 'image',
-          src: 'https://www.achieversit.com/assets/images/logo-white.png', // Replace with your logo URL
+          src: 'https://www.achieversit.com/assets/images/logo-white.png', 
           alt: 'Company Logo',
         },
         {
@@ -44,7 +44,7 @@ class Footer extends Component {
       ],
     },
   ];
-
+  
   render() {
     return (
       <footer className="footer">
@@ -104,4 +104,6 @@ class Footer extends Component {
 export default Footer;
 
 
- 
+
+
+  

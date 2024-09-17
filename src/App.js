@@ -1,6 +1,9 @@
 import React from 'react';
+import './App.css';
 import Header from './componets/header/Header.js';
 import Footer from './componets/footer/Footer.js';
+import Home from './componets/pages/Home/Home.js';
+
 
 
 
@@ -9,11 +12,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header/>
-        
-        <div className="content">
-          <h2>Welcome to My Website</h2>
-          <p>This is a simple website Header and Footer created by using React and CSS.</p>
-        </div>
+        <Home/>
+
         <Footer/>
       </div>
     );
